@@ -1,0 +1,1 @@
+UPDATE todos SET complete = $2 WHERE todo_id = $1;
